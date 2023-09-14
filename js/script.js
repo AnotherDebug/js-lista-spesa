@@ -30,3 +30,6 @@ console.log(shoppingList);
 
 // 2.
 let count = 0;
+
+// 3.
+while(count < shoppingList.length-1) {};
