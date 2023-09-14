@@ -12,7 +12,9 @@ Data una lista della spesa, stampare sulla pagina (anche brutalmente, basta che 
 5. Utilizzando la condizione del ciclo con contatore come indice, stampo uno per uno il valore della lista della spesa.
 */
 
+// elementi
 
+const shoppingListRef = document.getElementById('shoppingList');
 
 // 1.
 const shoppingList = [
@@ -32,4 +34,10 @@ console.log(shoppingList);
 let count = 0;
 
 // 3.
-while(count < shoppingList.length-1) {};
+while(count < shoppingList.length-1) {
+    // 4.
+   count++;
+    console.log(shoppingList[count]);
+     // 5. 
+    shoppingListRef.innerHTML += `<h1>${shoppingList[count]}</h1>`;
+};
