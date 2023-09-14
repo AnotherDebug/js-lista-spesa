@@ -27,3 +27,6 @@ const shoppingList = [
 ];
 
 console.log(shoppingList);
+
+// 2.
+let count = 0;
