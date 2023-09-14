@@ -11,3 +11,19 @@ Data una lista della spesa, stampare sulla pagina (anche brutalmente, basta che 
 
 5. Utilizzando la condizione del ciclo con contatore come indice, stampo uno per uno il valore della lista della spesa.
 */
+
+
+
+// 1.
+const shoppingList = [
+    "pasta",
+    "carne",
+    "birra",
+    "olive",
+    "patate",
+    "salsa di soia",
+    "noodles",
+    "carote"
+];
+
+console.log(shoppingList);
