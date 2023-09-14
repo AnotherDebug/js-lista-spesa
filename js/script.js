@@ -39,5 +39,5 @@ while(count < shoppingList.length-1) {
    count++;
     console.log(shoppingList[count]);
      // 5. 
-    shoppingListRef.innerHTML += `<h1>${shoppingList[count]}</h1>`;
+    shoppingListRef.innerHTML += `<h2>${shoppingList[count]}</h2>`;
 };
